@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 100px; 
+  }
+  .logoText{
+    color: #ddd;
+    text-decoration: none;
+
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-25%);
+  }
+  
+  .link {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 20px; 
+    font-size: 16px;
+  }
+  
+  .link:hover {
+   
+    color: #fff;
+  }
+  .logoText:hover{
+    color: blue;
+  }
+  
