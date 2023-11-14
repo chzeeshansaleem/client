@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/navbar/navbar';
 import FileUploader from './Components/dataScraping/FileUploader';
 import Home from './Components/Home_page/Home'
+import EmailValidator from './Components/emailValidators/EmailValidators';
 import './App.css';
 
-const EmailValidators = () => <div>Email Validators Page</div>;
+const EmailValidators = () => <EmailValidator/>;
 
-const DataScraping = () => <FileUploader />; 
+const DataScraping = () => <FileUploader />;
 
 const App = () => {
   return (

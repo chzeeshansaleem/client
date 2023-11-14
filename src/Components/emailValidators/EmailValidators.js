@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useDropzone } from 'react-dropzone';
-import './FileUploader.css';
+import './EmailValidators.css';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-const FileUploader = () => {
+const EmailValidator = () => {
   const [files, setFiles] = useState([]);
   const [showDownloadButton, setShowDownloadButton] = useState(true);
   const [loading, setLoading] = useState(false);
@@ -138,7 +138,7 @@ const fileRemove=()=>{
   return (
     <div className="file-uploader-container">
       <div>
-        <h1>Welcome to Data Filter platform.</h1>
+        <h1>Welcome to Email Validator platform.</h1>
       </div>
       <div {...getRootProps()} className="dropzone">
         <input {...getInputProps()} />
@@ -174,4 +174,4 @@ const fileRemove=()=>{
   );
 };
 
-export default FileUploader;
+export default EmailValidator;

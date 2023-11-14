@@ -1,0 +1,52 @@
+.file-uploader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center the container both vertically and horizontally */
+  }
+  
+  .dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .file-list {
+    text-align: center;
+  }
+  
+  .file-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .file-list li {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  /* button:hover {
+    background-color: #096dd9;
+  } */
+  .remove-button {
+    background-color: red; /* Change remove button color to red */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
